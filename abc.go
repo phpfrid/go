@@ -39,9 +39,7 @@ func errtest() {
 		fmt.Println(err)
 	}
 }
-func abc() {
 
-}
 func main() {
 	//	errtest()
 	//	test(12, 13)
