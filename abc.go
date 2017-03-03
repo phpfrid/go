@@ -5,6 +5,12 @@ import (
 	"fmt"
 )
 
+ Persion struct{
+	name stirng,
+	pwd string,
+	ape int
+}
+
 var a, b = 25, "abc"
 
 func test(a int, b int) {
@@ -45,5 +51,8 @@ func main() {
 
 	a := funtest(15, 17)
 	fmt.Println(a)
+	 for _, v := range map{
+        fmt.Println("map's val:", v)
+    }
 
 }
