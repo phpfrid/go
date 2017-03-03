@@ -33,12 +33,8 @@ func errtest() {
 		fmt.Println(err)
 	}
 }
+func abc() {
 
-func funtest(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
 }
 func main() {
 	//	errtest()
